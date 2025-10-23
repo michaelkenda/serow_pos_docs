@@ -1,0 +1,57 @@
+
+site_name: Serow BI
+nav:
+  - Home: index.md
+  - Introduction: introduction.md
+  - Getting Started: getting-started.md
+  - Installation: installation.md
+  - Inventory:
+      - Item: Inventory/items.md
+      - Batches: Inventory/batches.md
+      - Branchstock: Inventory/branchstock.md
+      - BranchstockMovement: Inventory/branchstockmovement.md
+      - Priceformula: Inventory/pricing_formula.md
+      - Sales Tracking: Inventory/sales_tracking.md
+      - Stock Adjustment: Inventory/stock_adjustment.md
+      - Stock Received: Inventory/stock_received.md
+      - Stock Transfer: Inventory/stock_transfer.md
+      - Stock Requisition: Inventory/stock_requisition.md
+      - Stockhealthchecks: Inventory/stockhealthchecks.md
+      - Stocktake: Inventory/stocktake.md
+  - POS:
+      - Sales: POS/sales.md
+      - Invoices: POS/invoices.md
+      - Creditnotes: POS/creditnotes.md
+      - Quotations: POS/Quotations.md
+      - sales-receipts: POS/sales-receipts.md
+      - salesitems: POS/salesitems.md
+      - salesorders: POS/salesorders.md
+      - transactions: POS/transactions.md
+  - Purchases:
+      - Purchases Orders: purchases/purchase_orders.md
+      - Purchases: purchases/purchases.md
+      - Receiveditems: purchases/receiveditems.md
+      - Returneditems: purchases/returneditems.md
+      - Suppliers: purchases/suppliers.md
+      - Supplier Banks: purchases/supplier_credit.md
+      - Supplier Transactions: purchases/supplier_transactions.md
+      - Supplier Aging: purchases/supplier-aging.md
+      - Supplier Credit: purchases/supplier_credit.md
+      - Supplier Items: purchases/supplieritems.md
+      
+
+      
+extra_css:
+  - styles/mkdocs_docs.css
+theme:
+  name: material
+  primary: green
+  logo: images/serow_logo_transparent.png
+  favicon: images/favicon.png
+  palette:
+    - scheme: default
+      primary: custom
+      accent: deep orange
+    - scheme: slate
+      primary: deep purple
+      accent: lime
