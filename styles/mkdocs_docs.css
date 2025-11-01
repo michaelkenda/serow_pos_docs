@@ -1,0 +1,17 @@
+
+:root > * {
+  --md-primary-fg-color:#001133;
+  --md-primary-fg-color--light: #2cdded;
+  --md-primary-fg-color--dark: #2cdded;
+}
+.md-header__title {
+    color: #2cdded !important;  /* Replace with your color */
+}
+.md-search__icon {
+    color: #2cdded !important;  /* orange */
+}
+.md-search__input::placeholder {
+    color: #2cdded !important;   /* orange text */
+    font-weight: bold;
+    font-style: italic;
+}
